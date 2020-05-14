@@ -10,8 +10,24 @@ int main()
 
 	clock_t begin = clock();
 
-	// do some stuff here
-	sleep(3);
+	
+
+	
+	int a =3,b=3;
+	int c;
+	c=a+b;
+	int d =3,e=3;
+	int f;
+	f=e+d;
+	int i;
+
+
+
+
+
+
+	sleep(2);
+
 
 	clock_t end = clock();
 
@@ -19,7 +35,7 @@ int main()
 	// divide by CLOCKS_PER_SEC to convert to seconds
 	time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
 
-	printf("Time elpased is %f seconds", time_spent);
+	printf("\n Time elpased is %f seconds \n \n ", time_spent);
 
 	return 0;
 }
